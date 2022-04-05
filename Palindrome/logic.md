@@ -1,0 +1,13 @@
+- Problem is to find if the number is a `palindrome` or not
+- First check if the integer is negative. If it is negative then return False
+- Now first initialize original_number to x and reverse_number to 0
+- Now loop until  x > 0.
+- Find the last digit of the number. 
+- `Example` - 123 last digit is 3
+- Next add 3 to the reverse number such that last digit becomes first digit
+- `Example`
+- 123 last digit is added to reverse number. Now reverse number is 3. Now again while adding 2 as last digit we have to first multiply it by 10 and then add the digit. So the pattern emerges as `reverse_number = reverse_number * 10 + last_digit`
+- Now once last digit is added to the reverse number we have to move our pointer to the last second digit that means we have to get rid of the last digit 
+- This is achieved by `x = x // 10`
+- Repeat
+- At the end just return original_number == reverse_number
