@@ -1,0 +1,4 @@
+- Loop through the reversed string
+- In reverse string if the string[i] is greater than temp value 
+- then increase result with string[i] else subtract. 
+- In both the cases update temp = string[i]
