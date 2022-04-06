@@ -1,0 +1,5 @@
+- First initialize a list that will  take all the list 1 and list 2 nodes 
+- Now once the final merge list is created sort it
+- Now initialize a listNode to make a linkedlist - s and t
+- Now loop through each node and attach it to s.next
+- return the head of the beginning
