@@ -1,0 +1,7 @@
+- Lets go through an example
+- nums = [3, 2, 2, 3]
+- Now we first initialize a variable i = 0
+- Next we loop through the array
+- if nums[idx] != target_value we want to remove then
+- nums[i] = nums[idx]
+- i += 1
