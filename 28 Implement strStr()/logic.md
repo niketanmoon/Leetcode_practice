@@ -1,0 +1,6 @@
+- If the needle is an empty string then return 0
+- Now loop through the string such that len(haystack) - len(needle) + 1 which is the window slide
+- Suppose haystack length is 5 and needle length is 2 then we want to loop till 4th index of haystack. this is achieved by 5 - 2 + 1
+- Now check if haystack from that index to the len(needle) + index is equal to needle or not.
+- if it is equal then return index else continue
+- If nothing is found return -1 
