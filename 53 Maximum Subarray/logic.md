@@ -1,0 +1,5 @@
+- For max sum we know that it can first start with nums[0]
+- Now take current_sum = 0 
+- Iterate through the array and keep adding the nums element to current sum
+- if current sum  > max sum then max sum = current sum
+- also if current sum < 0 that is negative then just reset it to 0
