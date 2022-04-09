@@ -1,0 +1,8 @@
+- First consider a integer as a sorted array of digits
+- Now take left = 1 and right = given integer
+- Now go until left <= right
+- Find the half of that integer and square it
+- if the middle digit square is greater than given integer
+- then we do right = middle - 1
+- else left = middle + 1
+- Logic is same as binary search, in this case we can consider to find the middle element of the number 
