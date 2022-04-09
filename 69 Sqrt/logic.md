@@ -5,4 +5,4 @@
 - if the middle digit square is greater than given integer
 - then we do right = middle - 1
 - else left = middle + 1
-- Logic is same as binary search, in this case we can consider to find the middle element of the number 
+- Logic is same as binary search, in this case we can consider to find the middle element of the numberP 
