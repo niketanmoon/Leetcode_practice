@@ -1,0 +1,5 @@
+- First convert the digits list which is in int to a string.
+- Then add 1 to it by first converting it into a int
+- Now loop through the resulted number 
+- `for i in str(result)`
+- and append the integers to a different array and return the array
