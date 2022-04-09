@@ -1,0 +1,4 @@
+- First convert both numbers a and b to integers
+- Add them into result
+- Then convert the result to binary using 
+- `format(result, "b")`
