@@ -1,0 +1,9 @@
+- Example linked list 1 -> 1 -> 2 -> 3 -> 3
+- First we initialized first node as head
+- Check if the first node is empty
+- while first_node second node will be next of first node
+- Now while second node exist and first node and second node value is same then we just skip that node. That means second node will be two.
+- Before first node = 1, second node = 1. But because of the condition second_node = second_node.next
+- Now if we find a unique node then link the first and second node with first_node.next = second_node
+- Then shift the first node. Therefore first node = second node 
+- When all the linked list is complete return head 
