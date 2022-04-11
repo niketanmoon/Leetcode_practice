@@ -1,0 +1,6 @@
+- First check if the tree is empty if it is then return true else pass left and right to a function
+- Now the function will check if the left and right node is not empty
+- if it is not empty then it will check values of left and right should be equal
+- If the values are equal then it will again pass left.left and right.left to the same function and it should also pass left.right and right.left to the same function
+- This way you are making sure that both left and right exist and since left and right has same value it will again compare left.left and right.right and also left.right and right.left
+- If both does not exist then simply return left == right
