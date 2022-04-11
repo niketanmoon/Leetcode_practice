@@ -1,0 +1,12 @@
+- First create a current and temp node
+- Now iterate through both the linked lists if at least one of them is not empty or carry is not 0
+- add the values
+- val = val1 + val2 + carry
+- now after addition there will be a carry
+- carry = val // 10
+- now the val should be changed to last digit
+- val = val % 10
+- Now we need to update the val of the node
+- current_node.next = ListNode(val)
+- Once this is updated we need to increment all the nodes
+- return temp.next
