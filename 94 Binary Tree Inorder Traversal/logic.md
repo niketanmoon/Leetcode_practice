@@ -1,0 +1,7 @@
+- First we create a helper function which takes a node
+- First check if the node is empty
+- If it is empty then return 
+- else first traverse the left node
+- then append the node.val to a list and
+- then traverse the right node
+- At end return the list of values appended
