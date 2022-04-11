@@ -1,0 +1,6 @@
+- Check if both p and q are empty then return True
+- If one of them is empty then return False
+- Also if one of them's value is different than the other's value return False
+- Now this means that nodes remaining are equal.
+- Now call the function with left node of both and compare it with right node of both
+- If both returns True then its True else False
