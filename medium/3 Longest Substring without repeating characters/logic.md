@@ -1,0 +1,10 @@
+- s = "abcabcbba"
+- Now take two  pointers a and b and set it to 0
+- initialize a hashset
+- Now iterate the bpointer on s
+- see if the character at b is in the hashset
+- if it is not then add it to the hashset and increment bpointer
+- Now the max has changed to len hash_set or the max number
+- if it is in the hashset, that means we found a duplicate character, then we just remove the first pointer character and slide our window by 1 
+- so a + 1
+- Now max value is returned
