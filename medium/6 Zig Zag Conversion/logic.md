@@ -1,0 +1,3 @@
+- Remember to calculate the first and last row we can apply increment by 2 * (numRows - 1)
+- But for middle elements formula to get the string will be 2*(nums\Rows - 1) - 2*row_number
+- THen just add the string
