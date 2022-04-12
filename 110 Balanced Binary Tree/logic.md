@@ -1,0 +1,5 @@
+- First find the left and right subtree depth
+- Make a helper function to do this
+- if len(left) - len(right) <= 1 then its a balanced subtree
+- return if its balanced or not and the depth of the tree 
+- Now after the whole helper function is done, we can simply return helper(root)[0] which will run the boolean
