@@ -1,0 +1,5 @@
+- Its same as reverse integer in easy question
+- We have to take reverse number = 0 and original number = x
+- while x is not negative: pop the last digit and add it to reverse number 
+- After reverse number is created one caveat is that it should be in range -2^31 to 2^31 - 1
+- Also another thing is the given number can be negative so first make it positive and apply reverse formula and then again make it negative
