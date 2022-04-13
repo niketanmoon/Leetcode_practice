@@ -1,0 +1,11 @@
+- most water = area
+- width = right index - left index
+- h = height[i]
+- area = width * h
+- Let max_area = 0
+- Now l = 0 and right = len(height ) - 1
+- Calculate the area, and update max area according to max of max area or current area
+- Continue till l < r
+- Also after calculating the area increase the pointer which has minimum height 
+- l = l + 1 or r = r - 1
+
