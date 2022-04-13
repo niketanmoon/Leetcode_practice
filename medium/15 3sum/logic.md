@@ -1,0 +1,10 @@
+- First sort the array as this will help to get rid of the duplicate and also iterating
+- loop through the array
+- Now if index  > 0 and previous array value == current value then we just continue to get rid of the duplicate
+- Now this is basically a two sum
+- Initialize left and right for remaining array
+- while left < right
+- check if sum < 0 then shift left pointer
+- if it is greater then decrease the right pointer
+- if its equal then we found the values so add it to a list
+- and then increase the left pointer and then check untill previous left element and current left element is different keep increasing the left pointer
