@@ -1,0 +1,10 @@
+- First add all the symbols with value in a list including the edge case like 4, 9, 40, 90, 400, 900 and write it in a order
+- initialise res = ""
+- Now go in reverse order in a list
+- if only the quotient of the num // val is other than 0 we add the symbol to the string
+- count of symbol is num // val_in_list
+- now add it to the list
+- Then update the num so if its 1500 then we just want now 500 after 1500 / 1000
+- num = num % val
+- This will create a roman string 
+- return the string
