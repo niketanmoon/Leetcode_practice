@@ -1,0 +1,6 @@
+- Take two point pointer l = 0 and r = 1
+- loop until r < len(prices)
+- if left prices < right prices only then take the profit and then update the profit
+- Else l = r
+- In both the cases increases right 
+- return profit
