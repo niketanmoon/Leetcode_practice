@@ -1,0 +1,6 @@
+- Since we want to keep the space complexity constant we can use XOR
+- n XOR 0 = n
+- 1 XOR 1 = 0
+- 0 ^ 0  = 0
+- If they are different then its not 0 but the number
+- Taking xor of everything will give the res
