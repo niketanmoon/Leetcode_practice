@@ -1,0 +1,9 @@
+- Take two pointers left and right
+- Now while left is smaller than right check if the character at first left is alphanumeric for this we will make use of ascii values which we can get using ord("character")
+- If it is not alphanumeric then we increase left pointer
+- If the character at right pointer is not alphanumeric we decrement r
+- Now we get the position of l and r where both are characters
+- Now compare lower left character with lower of right character.
+- If they are not equal then it is not a palindrome.
+- But if both the characters are equal we increment left and decrement r to compare the whole string
+- If False is not returned then we can return True at the end
