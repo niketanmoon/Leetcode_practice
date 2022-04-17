@@ -1,0 +1,6 @@
+- Go through the Floyd's Tortoise and Hare algorithm
+- Here take two pointer slow and fast and initialize it to head
+- while fast node and its next node is not Null
+- increment the slow pointer by 1 and fast pointer by 2
+- Now if slow == fast then we can say that there is a cycle
+- when the whole linked list is finished we can say that there is no cycle
