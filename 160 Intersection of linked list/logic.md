@@ -1,0 +1,3 @@
+- While both nodes are not equal go through the each list
+- If any list goes to null then set it to another list head
+- If both are equal then return any node
