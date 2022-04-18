@@ -1,0 +1,3 @@
+- Consider a stack list that will take the values
+- Consider another min Stack that will keep the minimum 
+- When you pop you pop both the stacks
