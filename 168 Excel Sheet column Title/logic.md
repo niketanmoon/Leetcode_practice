@@ -1,0 +1,6 @@
+- first take an empty string
+- while column number > 0
+- c = ord('A') + (column number - 1) % 26
+- add this to the string
+- then update the column number to column number - 1 // 26
+- return res
