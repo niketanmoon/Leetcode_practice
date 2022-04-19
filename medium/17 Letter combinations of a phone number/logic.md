@@ -1,0 +1,2 @@
+- go through each character of the digits and then add each char
+- Now again loop through the next digit and again go through loop and add each char
