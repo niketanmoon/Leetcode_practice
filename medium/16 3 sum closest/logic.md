@@ -1,0 +1,8 @@
+- First sort the array
+- Now take the sum of first three numbers and store it in res
+- Now go through the loop till len - 2
+- then describe the left as i + 1 and r as len - 1
+- Now while l < r
+- if current sum which is addition of numbers at i, l and r  - target  < res - target
+- then we update res with current sum
+- if current sum < target then we increment l else decrement r
