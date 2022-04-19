@@ -1,0 +1,5 @@
+- Initialize a hash set
+- Each time the number is not hash set add it to the set
+- Take the square of digits - use % and //
+- Now check if number == 1 if it is then return
+- return False if the number is already visited
