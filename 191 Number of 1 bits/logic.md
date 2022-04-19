@@ -1,0 +1,3 @@
+- while n > 0
+- take the last digit and mod it by 2 if its 1 then add it to the count
+- Now remove the last digit by shifting to the right by 1 or taking quotient division and update the number
