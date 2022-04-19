@@ -1,0 +1,2 @@
+- The logic is similar to doing 3 sum
+- Once we get to  finding 2 items we will apply logic of 2 sum 2
