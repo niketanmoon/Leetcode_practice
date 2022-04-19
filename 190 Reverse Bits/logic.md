@@ -1,0 +1,3 @@
+- Loop through range 32
+- shift the n to right with respect to i and & it with 1
+- Now take the or of result and bit above shifted to left by 31-i
