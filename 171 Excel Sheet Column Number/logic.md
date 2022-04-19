@@ -1,0 +1,3 @@
+- loop through the title
+- Find the ascii value of the character and then get the actual number according to excel sheet by ord(char) - ord("A") + 1
+- Now add this to result = result * 26 + x as 26 is out base 
