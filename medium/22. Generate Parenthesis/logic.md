@@ -1,0 +1,5 @@
+- Make use of backtracking function
+- Only add open parenthesis if open < n
+- Only add a closing parenthesis if closed < open
+- valid IFF open == close == n
+- pop the stack after appending and making a recursive call
