@@ -7,7 +7,7 @@
 - first number = number inside nums
 - second number  = target - first number
 - Now check if second number is in hash map if it is then return idx of the first number and hash_map[second_number]
-- else store the index of the first number as key and value pair 
+- else store the first number as key and its index as its value 
 - `Example`
 `
 nums = [2, 7, 11, 15]  target = 9
