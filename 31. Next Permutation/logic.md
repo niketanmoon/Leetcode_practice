@@ -1,0 +1,11 @@
+- Suppose [1, 3, 5, 4, 3, 2, 1]
+- Find pivot 
+-  go from reverse array and find where nums[i-1] < nums[i] here it is index 2
+- pivot = 2
+- Now check which index needs to be swapped 
+- First find the swap index which will be at 3
+- For this we will go through the array again and check which number is greater than pivot - 1 number
+- Here index 3 needs to be swapped with 1 because nums[pivot-1] = 3 < nums[swap] = 4
+- After this array becomes [1, 4, 5, 3, 3, 2, 1]
+- Now sort the array from pivot
+- [1, 4, 1, 2, 3, 3, 5]
