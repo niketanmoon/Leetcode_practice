@@ -1,0 +1,6 @@
+- First we will take absolute of both numbers
+- Now we will check if dividend >= divisor
+- Then we will minus divisor from dividend and then add it to the result then we again multiply the divisor by 2
+- and increment the multiplier
+- Now check if the number is negative then return negative 
+- Also check for edge cases
