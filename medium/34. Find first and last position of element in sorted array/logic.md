@@ -1,0 +1,4 @@
+- Apply binary search two times
+- First to go to left if the middle element is found 
+- Then to go to right if the middle element is found
+- Other conditions work as usual
