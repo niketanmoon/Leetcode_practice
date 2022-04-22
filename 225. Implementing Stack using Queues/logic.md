@@ -1,0 +1,3 @@
+- All the methods are similar to stack except pop
+- In pop we eliminate from left that means the first till the last element and then put it back again to the right
+- Now do again popleft and you will get the top element from queue similar to stack
