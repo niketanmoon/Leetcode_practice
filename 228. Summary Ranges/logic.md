@@ -1,0 +1,6 @@
+- First go through the array 
+- initialize a start number from where you will start your range
+- Now to find the break point you check if the next element is current element + 1
+- If it is then we continue
+- else we know we found the breaking point we check if the start == nums[i]
+- if it is then we add the number else we add the start -> nums[i] in string format
