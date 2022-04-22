@@ -1,0 +1,9 @@
+- Initialise hashset for rows, cols and 3X3 boxes named as squares
+- go through 9 X 9
+- If its an empty box then continue
+- check if the sudoku is valid
+- 1. Check if there is any duplicate in rows
+- 2. Check if there is any duplicates in cols
+- 3. Check if there is any duplicates in boxes squares(r//3, c//3)
+- If duplicate found then return False else add every number to the hashset
+- if no duplicates found till end just return True
