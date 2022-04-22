@@ -1,0 +1,5 @@
+- Check the base case if it is 1 then return "1"
+- Now prev = self.func(n-1)
+- Now loop through the prev
+- if the prev[i] != prev[i+1] then add the str(counter) + prev[i] to result and reset the counter to 1
+- else increment the counter 
