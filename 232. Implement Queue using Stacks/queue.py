@@ -12,7 +12,7 @@ class MyQueue:
             self.s1.append(self.s2.pop())
 
     def pop(self) -> int:
-        return self.s1.pop()
+        return self.s1.pop()c
 
     def peek(self) -> int:
         return self.s1[-1]
