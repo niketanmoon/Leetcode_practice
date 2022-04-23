@@ -1,0 +1,5 @@
+- Use two stacks s1 and s2
+- While doing push first check if there is anything in s1 if there is then first push it on s2
+- Now push the element on s1 and then push s2 elements on s2 
+- This way the last element that went inside will be the last element in s1
+- Pop peek and empty is now same as stack - pop() s1[-1] len(s1) == 0
