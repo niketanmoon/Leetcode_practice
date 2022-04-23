@@ -1,0 +1,4 @@
+- First check if n == 1 then return True
+- Then check for false conditions, if its a odd number or 0
+- else the number may be 4 for example so we need to divide it by 2 and again pass it to the loop
+- That means just update the n // 2 and make a recursive call
