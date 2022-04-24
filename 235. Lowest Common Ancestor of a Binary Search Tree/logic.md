@@ -1,0 +1,3 @@
+- If p and q values are both greater then we know that lca lies in the right sub tree so go to right 
+- elif p and q values are both smaller then we know that lca lies in the left subtree so go to left
+- Now this means that there is a split so return the current node
