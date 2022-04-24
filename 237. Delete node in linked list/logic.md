@@ -1,0 +1,2 @@
+- Change the node val to next node val 
+- Change the next link of current node to next node's next link
