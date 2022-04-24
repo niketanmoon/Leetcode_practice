@@ -1,0 +1,6 @@
+- Logic1
+- Counter(s) == Counter(t)
+- **Logic 2**
+- Put count of character in hashmap for both the strings and check if the count is equal
+- **Logic 3**
+- Sort it and check if both the strings are equal or not
