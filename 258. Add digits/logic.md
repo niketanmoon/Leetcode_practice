@@ -1,0 +1,3 @@
+- Check if len(str(num)) == 1 then return number itself
+- Else take number take each digit and add it to a sum if the sum is only one digit then return
+- else pass the sum to helper function
