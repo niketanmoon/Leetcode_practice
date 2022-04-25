@@ -1,0 +1,6 @@
+- First check if there is no root node then return
+- Now make a call to helper function
+- Add the node.val to the currentString
+- Now check if its a leaf node. If its a leaf node then append currentString to path and return 
+- If its not a leaf node, Make a recursive call to left with list and currentString + "->"
+- Check same for right node
