@@ -1,0 +1,2 @@
+- If it is divisible by 2, 3, 5 then divide the number by these factors and update number
+- If the number != 1 then return False else return True
