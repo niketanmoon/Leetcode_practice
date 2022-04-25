@@ -1,0 +1,4 @@
+- Make a call to helper function - check the base case if the current sum = total if it does then append the current list to result and return
+- If the total is greater than target or it ran out of candidates then just return
+- Add the candidate to the current list and make a recursive call
+- pop and again make a recursive call without adding the candidate
