@@ -1,0 +1,7 @@
+- Check the base case if len is 1 then return num in list
+- Go through the array
+- First pop the first element
+- Now make a recursive call which will give us lists
+- Now add the popped element to the perms
+- Now add the permutations we get into result
+- At end return result
