@@ -1,0 +1,5 @@
+- First initialize left and right to 0
+- Now while right < len(nums) - 1
+- go through the window between left and right and find the farthest jump one can take
+- Now once the farthest is decided we can update left as next to right and right as farthest jump which makes the level
+- Now since the level is formed increment the result
