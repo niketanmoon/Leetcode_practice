@@ -1,0 +1,2 @@
+- Take XOR of every number in the range to the number. Return result. (0 ^ n = n) (if its same then 0)
+- Second method - sum total - sum of every number will also give us the number that is missing
