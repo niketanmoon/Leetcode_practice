@@ -1,0 +1,6 @@
+- First convert the values into a hashmap number as key and count as value
+- Now go through the hashmap and check if the count is > 0
+- if it is then add it to the permutation list and decrement its count
+- Now make a recursive call to dfs
+- Once every recursive call is made then reset the hashmap that is increment the count and pop from the permutation list
+- at the end return res
