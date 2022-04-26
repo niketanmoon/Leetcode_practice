@@ -1,0 +1,2 @@
+- Apply binary search if isBadVersion(mid) till left <= right
+- return left at the end since it will give us the actual index
