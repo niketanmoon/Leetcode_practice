@@ -1,0 +1,6 @@
+- Simplest solution is to sort each string and check if any thing matches then group it but it takes O(m.nlogn)
+- Create a hashmap of tuple with counts
+- Create a count list [0,0,0,] upto 26
+- Then for each string note the count
+- Now update the hashmap with count list as key and strings as values
+- return result.values()
