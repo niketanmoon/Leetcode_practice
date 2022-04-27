@@ -1,0 +1,5 @@
+- Decide the boundary - left = 0, right = len(col) + 1, top = 0 row, bottom= len(row) + 1
+- Now go through top layer so left to right and append the number to result
+- Once the whole top layer is done then increment the top
+- Do similar for all the other cases
+- Also check for top < bottom and left < right if both are False then break
