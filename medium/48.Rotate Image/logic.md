@@ -1,0 +1,10 @@
+- First initialize the boundary left, right
+- while left < right - loop through right - left
+- Now initialize top and bottom same as left and right
+- Save the top left 
+- Now replace the top left with bottom left
+- bottom left <- bottom right
+- bottom right <- top right
+- top right <- top left that is saved
+- Once first rotation is done, we will shift left right top bottom with offsets
+- Once outer layer is finished we will decrement right and increment left
