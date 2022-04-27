@@ -1,0 +1,1 @@
+- If it is divisible by 4 then I loose otherwise win
