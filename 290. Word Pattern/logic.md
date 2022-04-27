@@ -1,0 +1,3 @@
+- Take two  hashmaps and map char to word and word to char
+- Check if the char and word in respective hashmaps and if it is different to the word we are seeing return False
+- Else update both the hashmap
