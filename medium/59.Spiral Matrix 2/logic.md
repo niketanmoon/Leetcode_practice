@@ -1,0 +1,1 @@
+- Same as 54 Spiral matrix but here we just need to initialize a matrix and put the number inside from 1 to n^2
