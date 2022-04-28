@@ -1,0 +1,6 @@
+- First define the rows and cols
+- Now define the matrix with infinity for rows+1 and cols+1
+- Now substitute the last position as 0 in matrix
+- Now go through the rows and cols of matrix but -1 in reverse order
+- Now matrix[r][c] = grid[r][c] i.e cost at the current index  + min(matrix[r+1][c] i.e down, matrix[r][c+1] i.e. right)
+- Return matrix[0][0]
