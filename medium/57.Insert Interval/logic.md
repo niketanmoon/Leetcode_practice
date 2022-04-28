@@ -1,0 +1,8 @@
+- Go through the intervals
+- Check if new interval is to the left of the current interval 
+- then add it to the res and then add remaining intervals to the result and return
+- if its not then check if the new interval is to the right of the interval this means we can add the current interval to the res
+- else the interval is overlapping so new interval is minimum of first value of current and new interval
+- and second value is maximum of first value of current and new interval
+- Once loop is done and we found new interval we can add it to the res by res.append(newInterval)
+- return result
