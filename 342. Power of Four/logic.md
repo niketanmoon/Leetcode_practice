@@ -1,0 +1,2 @@
+- while x <= n loop through the number and increment the i and also x = 4**i
+- if x == n return True
