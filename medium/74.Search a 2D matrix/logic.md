@@ -1,0 +1,4 @@
+- Logic is to do double binary search 
+- First binary search is to find the potential row it can be in
+- second binary search is on the selected row
+- log(m) + log(n) time complexity
