@@ -1,0 +1,8 @@
+- Make 2 choices either add to the list or dont add to the list 
+- if index ever reaches len nums then we append the whole subset list to the result and return
+- otherwise we do backtrack algo 
+- first add the nums at the index to the list
+- then make a recursive call with i+1
+- then again pop the element and again make the recursive call with i+1
+- call the function with start index as 0
+- return result at the end
