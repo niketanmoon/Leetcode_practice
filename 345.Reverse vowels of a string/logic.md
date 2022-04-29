@@ -1,0 +1,5 @@
+- Same as reversing string but this time we need to find only vowels to be reversed
+- Set left and right pointer
+- Now move the left pointer untill we find a vowel, repeat this for right
+- Once we get it swap the two elements
+- For this we need to take a hashset and also we need to append string characters into an array
