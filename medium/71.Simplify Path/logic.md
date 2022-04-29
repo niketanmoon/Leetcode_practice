@@ -1,0 +1,6 @@
+- Initialize a stack and an empty current string
+- Go through the path
+- if p is not a "/" then add it to the current string
+- if p == "/" then first check if there is ".." then pop from stack only if stack is not empty
+- elif check if p is not a empty string and p != "."; if this is the case then we just have to append current string to the stack and then outside reset the current string
+- return "/" + "/".join(list)
