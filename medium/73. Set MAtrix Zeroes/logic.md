@@ -1,0 +1,9 @@
+- get the length of rows and columns
+- Initialize rowZero = False which tells us if the first row needs to be zero or not
+- Now go through the matrix and check if the item is 0 
+- if it is then make the first row that column to  be zero and if r > 0 then do the first column that particular row to be zero
+- if r == 0 then rowZero = True
+- Once this is done now go through the matrix from 2nd row and 2nd column and if the first row column is zero or any row first column is zero then update each element to be zero
+- Now update the first row and first column
+- For this first check if the start element is zero then go through the each row first column and make everything zero
+- Also for row check if it is true then make the whole first row zero
