@@ -1,0 +1,10 @@
+- Go through each row and column and call the dfs function
+- If its true then return True
+- After searching through the whole grid if it comes out return False
+- Create a dfs function such that first it looks at the length of the word if i == len(word) then return True
+- Write all the invalid conditions if any invalid condition is true then return False
+- This includes if rows and columns goes out of bound or if the same cell is visited(to keep track of this maintain a hash set) and if the character is not equal to cell character
+- Else just add the visited cell to path in a tuple
+- Then call on dfs on all four sides and store it in res
+- Now reset the path with path.remove()
+- return res which will tell if it is true or not.
