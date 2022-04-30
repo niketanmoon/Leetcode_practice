@@ -1,0 +1,7 @@
+- initialize a start pointer endpointer and current pointer as 0
+- Now while endPointer < len(nums) go through the array such that start pointer character == end pointer character then increment end pointer. The idea is to place the end pointer such that it is not equal to the start pointer character
+- Then take the length = endIdx - startIdx
+- Then take minimum of 2 and length which is the allowed length
+- then just update the current pointer accordingly
+- Now once you updated the values in nums, point start index to end idx
+- finally at end return current index 
