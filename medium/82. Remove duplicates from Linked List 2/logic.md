@@ -1,0 +1,10 @@
+- Take 3 pointers 
+- First is previous which is initialized to dummy node which points to head
+- Take the first node
+- Now while there is first node
+- Check if second node = firstnode.next value is same as first node val
+- If it is then duplicate is true and we increment only second pointer such that it points to different value and it comes out of the while loop
+- Now if duplicates is True then we point previous.next to second node and duplicates is reset
+- Then reset first node = second node and then repeat again
+- In any case when duplicates is false then we just increment previous to previous.next
+- We have to return head which is dummy.next
