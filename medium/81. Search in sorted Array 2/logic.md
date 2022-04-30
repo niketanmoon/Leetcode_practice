@@ -1,0 +1,10 @@
+- We will apply binary search 
+- if target == middle then return True
+- if we are in the left portion i.e leftNumber < middle, then we search for target in left portion
+- if it is there then we do right = middle - 1
+- if it is not then we move to the right portion
+- Similarly check if we are in the right portion leftNumber > middleNumber
+- Now check similar conditions for target in right portion
+- Else the leftNumber = middleNumber that is we found a duplicate so just increment the left pointer
+- This is same as problem number 33 but we know there are no duplicate elements
+- In this case we have to look for duplicate elements
