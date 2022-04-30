@@ -1,0 +1,5 @@
+- First make a hashset and add unique values from any array to the set
+- Now go through the second array and see if the num is in set that means we found the intersection
+- Now first check if the found number is in the output list or not because we dont want to add duplicates
+- check if num in result if not then append num to result
+- return result
