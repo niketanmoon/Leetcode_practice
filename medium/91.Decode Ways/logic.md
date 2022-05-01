@@ -1,0 +1,12 @@
+- We are going to first define the base cases
+- If i is already in dictionary cache then return dp[i]
+- If char == "0" then return 0
+- Now we want to achieve dp[i] = dp[i+1] + dp[i+2]
+- So first take result = dfs(i+1)
+- Now for dfs(i+2) second char in string, we need to check the number should be less than 26
+- then res += dfs(i+2)
+- Now cache this result
+- dp[i] = result
+- return result
+- When the string ends it will give us the different ways to decode
+- At last call the dfs(0) and return it
