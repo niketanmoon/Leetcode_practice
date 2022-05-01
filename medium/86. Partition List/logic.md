@@ -1,0 +1,9 @@
+- take 2 dummy nodes left and right
+- take two tail nodes ltail and rtail to keep track of the last node in left list and right list
+- Now iterate through the list and if val < x then add it to the left list 
+- ltail.next = head
+- and update the ltail to point to last node - ltail = ltail.next
+- else: add it to the right tail and increment the rtail
+- Now after we iterate through the linked list we have to update left to beginning of right
+- and right last node to null
+- Once everything is done return left.next
