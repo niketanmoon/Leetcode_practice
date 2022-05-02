@@ -1,0 +1,8 @@
+- create a output list
+- Now if string > 12 then return empty list
+- Now call backtrack
+- If dots == 4 and it has reached the end of the string then add the current string to the res and return
+- if dots > 4 then return
+- Now go from i to minimum s+3 and len(s). Then check if the int of s[i:j+1] < 256 and i==j or s[i]!="0"
+- then we call backtrack function on j+1 i.e next index dots+1 and current String + s[i:j+1] + "."
+- At last when everything is returned just return output list 
