@@ -1,0 +1,5 @@
+- We have to implement BFS with a queue
+- First initialize the queue with root node
+- While q is not empty we will go through the q and first pop out the first in node using popleft and if its not null then we add it to the level and then add its left and right node to the q
+- Once we iterate through the q our level nodes are added and this we will add it to the result every time
+- Now once the q is empty we will return result
