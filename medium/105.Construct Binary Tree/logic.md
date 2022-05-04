@@ -1,0 +1,6 @@
+- First check if there is no preorder or inorder then return None
+- Now root node will be first node of the preorder
+- Now mid = find the root node val in inorder and we know that left of it is the left subtree and right of it is the right subtree
+- Now root.left = recursive call with preorder[1:mid+1] and inorder will be for left subtree from 0 to mid i.e inorder[:mid]
+- For right subtree preorder[mid+1:] and inorder(mid+1:) we dont include mid in the inorder for any case since this is already the root for the recursive call
+- Now just return the root node
