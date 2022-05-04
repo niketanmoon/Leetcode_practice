@@ -1,0 +1,8 @@
+- First define previous, first violation and second violation as none globally
+- Now call the inorder function
+- which first goes to the left then visit the node and then to the right node
+- While visiting the node we check if prev is not none and prev val > current val which means we found violation
+- First check if its a first violation or not if not one then its a first violation update one to be the first element of violation which in this case is prev
+- if its not a first violation then we dont want to update one since this is the second violation second is current element or the second item
+- Now if it is not a violation we know that prev is current and then we go for right node
+- Once the recursive call is done we will get two nodes that are violation then we just swap them
