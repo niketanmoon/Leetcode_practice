@@ -1,0 +1,5 @@
+- it is similar as bfs level order traversal
+- but when first order done if reverse is False then we simply add level to the result
+- but then when reverse is true we add reverse of level to the result
+- For first level reverse will be false
+- Once the level is added to the result according to above conditions then we flip reverse
