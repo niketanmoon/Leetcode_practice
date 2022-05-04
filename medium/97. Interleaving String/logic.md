@@ -1,0 +1,12 @@
+**Memoization**
+- Check first the base case if sum of lenght of s1 and s2 is equal to length of s3. If it is not then return False
+- Now make a hashmap
+- call a function dfs(i, j)
+- Now first base case is both i and j matches the length of s1 and s2 
+- return True in this case as we were able to iterate both the strings
+- Check if (i, j) in hashmap if it is then return the value associated with it
+- Now if i is less than length of s1 and the character at s1 matches s3 character then we again call dfs(i+1, j)
+- CHeck what it returns and if it returns True then return True
+- DO same with j and call dfs(i, j+1) if this returns True then only return True
+- Else just put i, j in hashmap with False
+- and return False
