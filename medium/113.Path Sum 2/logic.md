@@ -1,0 +1,9 @@
+- First call the dfs function
+- check the base case if not node then return
+- Now if node is present add to the list and add node.val to the current sum
+- Now check if its the leaf node and target sum = current sum
+- if it is then only add current list to the output 
+- Suppose current[5] on first node then this one should be passed to both left and right subtree therefore we do copy
+- else first call the left subtree with the list.copy() and keep the current unchanged
+- then we call the right subtree with the list.copy
+- After everything is done we just have to return output result
