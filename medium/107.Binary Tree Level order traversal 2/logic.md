@@ -1,0 +1,3 @@
+- Do a BFS approach using q
+- first pop the node every level and append its children
+- Once you get the output result just reverse and return it
