@@ -1,0 +1,9 @@
+- First convert the linked list to an array
+- You dont have to sort it as it is already sorted
+- Now call the recursive function with left and right
+- Now if left > right return None
+- Else find the middle element and create a root with it
+- Now the elements to the left will be left subtree and to the right will be right subtree
+- call recursive function on left and right subtree 
+- For left subtree right becomes mid-1 and for right subtree left becomes mid+1
+- return root
