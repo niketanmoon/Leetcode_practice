@@ -1,7 +1,14 @@
-- If not root(Tree empty) return None
-- Now point current to root
-- and while current is not null, first store the current in temp and shift the current and current next to next level
-- Now if temp is not null then call the function on left node to link the left and then on the right to link the right
-- Once this is done iterate through each node in the same level
-- Another way make the current and currentNext to move to one node to the left 
-- then while going to the right move the current next.next to that pointer
+- If not root (Tree is empty) return None
+- Now make the current as root
+- Now while current is not empty
+- First store the current in temp and assign current and currentNext pointers as None
+- While temp is not null in this case current
+**LEfT**
+- Go to the left tree and link the next node
+- When we go to left subtree, if it is for first time (check using currentNext is none or not)
+- Make the current node to be the node at the left subtree
+- And also the currentNext as the left subtree node
+**RIGHT**
+- Go to the right subtree and now current Next will not be null because we already know the previous Node
+- Now link the currentNext.next to the right subtree node
+- Now go through the level with temp = temp.next
