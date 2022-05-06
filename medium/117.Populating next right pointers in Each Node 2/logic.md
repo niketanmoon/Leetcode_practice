@@ -1,0 +1,7 @@
+- If not root(Tree empty) return None
+- Now point current to root
+- and while current is not null, first store the current in temp and shift the current and current next to next level
+- Now if temp is not null then call the function on left node to link the left and then on the right to link the right
+- Once this is done iterate through each node in the same level
+- Another way make the current and currentNext to move to one node to the left 
+- then while going to the right move the current next.next to that pointer
