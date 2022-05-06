@@ -1,0 +1,6 @@
+- Take a stack [char, count]
+- GO through the string and check if the string character is the stack top character if it is then increase the count 
+- else initialise the character with the count as 1 in the stack i.e stack.append([c, 1])
+- Now check if the character count matches k if it does then pop the character
+- Now go through the stack and do res += char * count
+- return res
