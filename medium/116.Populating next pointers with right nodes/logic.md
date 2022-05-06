@@ -1,0 +1,6 @@
+- First take the current and nxt variables and assign it to root and root.left if root exists otherwise None
+- Now while current and nxt exist we take the current.left.next to be current.right
+- Now for traversing through the level we check if current.next is there then we will update current.right.next to current.next.left
+- Now we will shift to the next pointer for traversing through the level
+- Now check if not current then we will update the current as nxt and nxt as current.left
+- At the last return root
