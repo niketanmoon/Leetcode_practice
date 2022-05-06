@@ -1,0 +1,8 @@
+- First make a recursive function which checks if the root is empty then return None
+- Now get the left most node using recursive call to root.left
+- Also get the right most node using recursive call to root.right
+- Now check if there is a left tree
+- then first make the leftTail.right = root.right i.e the left tail to be attached to the beginning of the right subtree
+- Then we want to make root.right to point to node.left and then we want to make the left node empty i.e root.left = None
+- Once this is all done check which one will be the last node
+- First its going to be right tail if not then left tail if not then root
