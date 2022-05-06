@@ -1,0 +1,4 @@
+- Go from range(1, len(prices)) - in this check i-1 and i
+- Or while i + 1 < len(prices) check prices at i and i + 1
+- Whenever we find previous is smaller than next we add it to the profit
+- return profit
