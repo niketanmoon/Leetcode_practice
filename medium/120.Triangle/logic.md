@@ -1,0 +1,4 @@
+- First initialize a array of zeros equal to length + 1 of triangle rows
+- Now iterate through the triangle in recursive order
+- Now go through element in the row and update the dp array with dp[idx] = number + min(dp[idx], dp[idx+1])
+- That means for each number in row I have to check minimum of num+dp[idx] or num+ dp[idx+1] which is also similar to taking first minimum of dp[idx] and dp[idx+1] and then adding it to the dp[idx]
