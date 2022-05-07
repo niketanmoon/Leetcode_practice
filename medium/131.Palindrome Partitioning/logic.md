@@ -1,0 +1,7 @@
+- Initialize result and part as an empty list
+- Now go through a function which will call index 0 
+- If i is out of bound or equal to len(s) then add part copy to result and then return
+- Now go through range i to len(s) and check if the string in that range is a palindrome if it is then first add that palindrome string to the part and then call dfs on it
+- After dfs is called pop that string from the part
+- Write a normal palindrome function to check the string
+- return result 
