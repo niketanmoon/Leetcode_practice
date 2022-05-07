@@ -1,0 +1,8 @@
+- First look for unsurrounded "O" these are only located on edges
+- Now if you found one then call helper function on that row, col
+- The helper function will check if r and c are not in bound or the element at r,c is not "O" then just return
+- Otherwise it will change the element to "T"
+- Then call recursive function on up down left right
+- To call the helper function we will first go through all the elements and check if the element is O and the row and col is boundary or not if it is then we call the helper function
+- Change now all the remaining "O" to "X"
+- Now change all the T's back to O 
