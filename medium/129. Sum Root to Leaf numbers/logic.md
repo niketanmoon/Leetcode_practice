@@ -1,0 +1,5 @@
+- Create a helper function which will take current node and sum = 0
+- if not current node then return 0
+- Now update the sum = sum * 10 + current node value
+- Now check if the current node is a leaf node if it is then return the calculated sum
+- If its not a leaf node then go through left tree calculate the total and add it to righ tree total
