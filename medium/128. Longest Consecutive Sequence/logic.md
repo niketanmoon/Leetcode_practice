@@ -1,0 +1,6 @@
+- Create a set of numbers with set(nums)
+- Initialize a maxCount = 0
+- go through the array and check if num to the left i.e num-1 present in set if it is not then we can start the sequence
+- length = 0 now while num+length in numSet we will increment the length
+- Once it comes out we will update the max value of count and length
+- return the maxCount calculated
