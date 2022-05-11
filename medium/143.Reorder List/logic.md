@@ -1,0 +1,5 @@
+- slow = first and fast = second
+- Now increment fast by 2 and slow by 1
+- Once the linkedlist is iterated we get slow as the first subset and fast as the end of the second node
+- Now reverse the links for second part of the list
+- Once this is done now take the first node from first part and first node from second part we merge it.
