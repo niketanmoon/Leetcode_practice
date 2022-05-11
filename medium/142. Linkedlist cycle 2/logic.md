@@ -1,0 +1,7 @@
+- initialize slow and fast as head
+- Now increment fast pointer by 2 and slow pointer by 1
+- if slow == fast we know that there is a cycle so we break
+- Now we again initialize fast to head
+- and then check if slow == fast first if it is then we return fast
+- if it is not then we increment now fast and slow by only 1 and break if slow == fast
+- Then return fast
