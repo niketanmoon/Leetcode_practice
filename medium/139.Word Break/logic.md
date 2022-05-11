@@ -1,0 +1,6 @@
+- dp = [False] till len(s) + 1
+- Now substitute the last element as True
+- Now go from reverse and check if s from i to i+len(w) = word or not if it is then do
+- dp[i] = dp[i+len(w)]
+- if dp[i] is true then just break and continue with i
+- return dp[0]
