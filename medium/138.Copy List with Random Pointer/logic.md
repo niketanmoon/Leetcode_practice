@@ -1,0 +1,7 @@
+- Take two passes first current=head and hashmap= {None: None}
+- For the first pass go through the list and create a copy node and map it
+- For the second pass go through the list and create copy.next and copy.random
+- copy = hashmap[current]
+- copy.next = hashmap[current.next]
+- copy.random = hashmap[current.random]
+- return hashmap[head]
