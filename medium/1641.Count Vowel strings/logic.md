@@ -1,0 +1,7 @@
+- First make a list of length 5 as this is the base case for n = 1
+- Now for n=2 is starting from back just add above number + right number
+- dp = [1, 1, 1, 1, 1] for n=1
+- dp = [1+4=5, 1+3=4, 1+2 = 3, 1+1=2, 1] for n = 2
+- dp = [5+10=15, 4+6=10, 3+3= 6, 2+1=3, 1]
+- At the end take the sum of it and return
+- pattern dp[j] = dp[j] + dp[j+1]
