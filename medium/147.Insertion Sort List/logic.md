@@ -1,0 +1,11 @@
+- Take a dummy node and point it to head to avoid the edge case of adding a node at the beginning
+- Now initialize previous and next pointer as head and head.next
+- While current is not null we check first if the list is already sorted, if it is then just increment prev and current and continue
+- Now once we found the node that is not sorted we start out loop from the beginning
+- temp = dummy
+- Now check if the temp.next.val >current.val if it is not then we just move the temp pointer forward to get the position where current node can be inserted
+- Now attach the previous next link to the next node of current
+- Now attach current next link to temp.next
+- temp.next = current and current = previous.next 
+- This way you added a node in between
+- return dummy.next
