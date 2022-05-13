@@ -1,0 +1,8 @@
+- First set result as float("inf")
+- now set the left and right pointer 
+- while left <= right, we first check if it is already sorted then result = min(result and left number) and break
+- now if it is not sorted then first find the minimum.
+- update the result to minimum of result and middle element
+- Now check if middle element  >= left if it is that means minimum will be in our right subarray so  left = middle + 1
+- else we search in left subarray right = middle - 1
+- return result at end
