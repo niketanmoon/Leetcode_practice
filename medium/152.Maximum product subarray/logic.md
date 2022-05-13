@@ -1,0 +1,7 @@
+- First take result as max(nums)
+- Now take two variables currentMax and currentMin=1
+- loop through the list if it is 0 then reset
+- if it is not 0 then we first calculate a = num * maxP and b = num * maxP
+- then we update current max by max(a, b, num) same for min
+- then we update result by the max of result and current max
+- return result at the end
