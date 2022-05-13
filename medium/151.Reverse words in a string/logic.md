@@ -1,0 +1,1 @@
+- Split the word and reverse it and join it
