@@ -1,0 +1,21 @@
+- We have to apply merge sort on linked list
+- First if head and head.next is Null that means it is empty or just one node so return just head
+- Now left is head and right is at the middle we get the middle by getMid function
+- Now save right.next first. Now right.next  = Null and right node is temp
+- Now once we figure out left linked list and right linked list we have to sort them using recursive call to main function
+- at last we merge the list 
+**getMid**
+- for this we will use slow and fast pointer
+- let slow =head and fast = head.next
+- now increment fast by 2 and slow by 1
+- this way at end slow will be at middle
+- return slow
+**merge function**
+- First we will see if the list1 and list2 is not null
+- then check list1 value and list 2 value
+- if list 1 is less then we do tail.next =list1 else tail.next=list2
+- and increment list1 or list2 accordingly
+- at each pass increment tail = tail.next
+- Now if list1 still exist then do tail.next = list1
+- same for list2
+- return dummy.next at end
