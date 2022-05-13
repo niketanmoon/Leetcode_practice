@@ -1,0 +1,3 @@
+- take a stack and if it is not any arithmetic operator then append it to a stack
+- if it is + or * then you can directly pop two elements and add or multiply them and append it to the stack
+- Now for - and / we have to first pop the first and second element and then do second - first or int(second / first) to round  and append it to  the stack
