@@ -1,0 +1,9 @@
+- First split version1 and version2 by "."
+- Now while two pointers s1 and s2 are less than len of list of version1 and version2
+- We first take each element in index and compare
+- if v1 is greater than v2 then we return 1
+- if v1 is less than v2 we return -1
+- else we continue
+- Now we check if list1 is not completely iterated, we check if v1 element is greater than 0 then return 1
+- Also check the same for list2 and return -1
+- Now after iterating both lists we know that both versions are equal so at the end we return 0
