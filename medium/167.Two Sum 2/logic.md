@@ -1,0 +1,2 @@
+- Apply same logic as two sum but while storing index store it as +1
+- and while returning return idx+1
