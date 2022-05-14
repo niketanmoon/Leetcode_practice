@@ -1,0 +1,3 @@
+- while n > 0
+- take quotient of n and add it to the count
+- return count
