@@ -1,0 +1,7 @@
+- There is a trick with sorted function using key and cmp_to_key(function)
+- First convert all the numbers to a string
+- Then sort it using the strings and compare function as mentioned above
+- compare function takes two inputs n1 and n2
+- if n1+n2 > n2+n1 i.e "3" + "30" > "30"+"3" then we must return -1 to rank "330" first
+- once this is done we can join the list
+- Edgecase can be "000" convert it into integer and then again into a string
