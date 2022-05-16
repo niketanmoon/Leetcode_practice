@@ -1,0 +1,2 @@
+- Just follow the level order traversal
+- instead of level as a list you can just initialize a variable as None and then rightNode = node if node exist
