@@ -1,0 +1,5 @@
+- First initialize two hashsets seen and result
+- loop over the string and check if each chunk of 10 characters in seen or not 
+- if it is then we know it occured more than once so we add it to the result
+- If it is not there we just add it to the seen set
+- At the end return list of result
