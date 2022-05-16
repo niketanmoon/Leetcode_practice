@@ -1,0 +1,7 @@
+- take two pointers rob1 and rob2 as 0, 0
+- now loop through nums
+- then [rob1, rob2, n, n+1] we can say that when robbing rob1 we can rob rob1 + n or else we can directly rob2 
+- whichever is the max
+- temp = max(rob1+n, rob2)
+- Now rob1 = rob2 and rob2 = temp
+- finally return rob2
