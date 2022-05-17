@@ -1,0 +1,11 @@
+- First update the adjacency list with courses and its prerequisites
+- Also maintain a visit set
+- Now for each course call the dfs
+- IN dfs first check if course is in visited then we return False
+- if there are no prerequisites for course we return True
+- Now we add the course to the visit and go through its prerequisites
+- if calling dfs on these prerequisites returns False then we return False
+- Once every pre is iterated through that course we remove it from the visited and map the course to be empty list
+- At the end we return True
+- Go through each course and call dfs on it if anytime it returns false then return False 
+- return True at end
