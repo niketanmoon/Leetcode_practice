@@ -1,0 +1,3 @@
+- Go through sieve of erathosnes algorithm
+- where we first increase the count of prime and discard other multiples of it
+- loop from 2 to n for i and for j from i*i, n, i with a step of i
