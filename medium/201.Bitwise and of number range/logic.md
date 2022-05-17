@@ -1,0 +1,5 @@
+- First move the left and right  by 1 till left = right
+- Now move the left pointer left by shiftCount
+- 9 - 1001 right shifted till 1 so shift count is 3
+- 12 - 1010 
+- left become 000000001 now left shift by 3 we get 1000 which is 8 and is the answer
