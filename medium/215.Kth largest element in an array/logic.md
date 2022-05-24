@@ -1,0 +1,13 @@
+- One logic is to sort and return len - k element
+- second logic is to sort in reverse and return kth element
+- Third logic is to perform quickSelect
+- Select a pivot- end element and p as left
+- Now go throught the nums and check if pivot is less than nums[i]
+- if pivot is less then continue
+- else we will swap nums[i] and nums[p] and increase the p pointer
+- Now once this is all done we will swap pivot and pth element
+- Now p points till where the values are sorted
+- Now we will check if k < p, if it is then we will call quickSelect on left subarray
+- if k > p then we will call quickSelect on right subarray
+- if k == p then we will return nums[p]
+- At end return quickSelect(0, len(nums)-1)
