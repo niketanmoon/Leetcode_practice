@@ -1,6 +1,7 @@
 - One logic is to sort and return len - k element
 - second logic is to sort in reverse and return kth element
-- Third logic is to perform quickSelect
+- Third logic is to use maxHeap
+- Fourth logic is to perform quickSelect
 - Select a pivot- end element and p as left
 - Now go throught the nums and check if pivot is less than nums[i]
 - if pivot is less then continue
