@@ -1,0 +1,10 @@
+- Lets make a hashmap
+- w = Increase t by 1 
+- go through the nums and if we find any multiple of w that is num // w is key
+- Now if key is in hashmap then we return true
+- Now check the previous bucket and next bucket and also check if number - hashmap[key-1] < w  then return True in both cases
+- Otherwise store the key with number
+- Now check if index >= k elements if it is then we have to shift pointer to right i.e remove element from the hashmap
+- bKey = nums[i-k] // w
+- del hashmap[bKey]
+- At the end after for loop we can return False
