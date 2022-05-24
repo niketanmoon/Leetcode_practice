@@ -1,0 +1,11 @@
+- First initialize the rows and cols and also cache as hashmap
+- Now define a helper function
+- if r, c is out of bounds i.e r>= rows or c >= cols then we just return 0
+- Now we check (r, c) in cache or not if it is not in the cache
+- then we first check down, right and diag and find the max square there
+- Now we first make cache[(r,c)] = 0
+- Now if current position element is "1"
+- then we do 1+min(down, right, diag) this can be 0 or 1 in both cases it satisfies
+- so we store this max square length to the cache
+- now in both cases we return cache[r][c]
+- At end we call the helper function and at end we take cache.values max and square it
