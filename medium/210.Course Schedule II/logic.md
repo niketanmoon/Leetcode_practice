@@ -1,0 +1,14 @@
+- Build a adjacency list of crs and its prerequisites
+- Take two sets visit, cycle 
+- go through each course and call dfs 
+- If at any time dfs returns False then return empty list 
+- Once all the courses are visited return output
+**dfs function**
+- First check the termination cases
+- If the course is in cycle then return False
+- if it is in visited then return True
+- otherwise we will go into prerequisites for each course before that we will add it into the cycle
+- call dfs on prerequisites courses if anytime it returns false then return False
+- Once all the dfs for prerequisites of the course is done remove the course from cycle
+- add it to visit and append it to output
+- then return True
