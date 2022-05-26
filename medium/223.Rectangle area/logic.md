@@ -1,0 +1,2 @@
+- area1 - area2 * overlap area
+- For overlap area look at the diagram and code
