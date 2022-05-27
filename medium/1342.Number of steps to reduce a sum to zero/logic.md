@@ -1,0 +1,4 @@
+- While n is not zero we will check for n is even or not
+- If n is even then we will divide by 2 else we will subtract 1 from the number
+- in both the cases increment the count step
+- return count
