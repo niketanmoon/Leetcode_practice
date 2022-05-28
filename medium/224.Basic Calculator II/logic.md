@@ -1,0 +1,10 @@
+- Let the previous number be 0 and previous symbol be "+"
+- Now go through the string and calculate the previous number which is p*10+digit
+- Now if c is an operator sign or index is at the last element
+- We check the previous symbol 
+- if it is "+" then we add the previousNumber to stack
+- if it is "-" then we push -previousNumber to stack
+- if it is "/" then we change the top element as top element/previousNumber
+- same for "*"
+- At the end we reset the previousNumber to 0 and previousSymbol to current Symbol
+- At the end return the sum of the stack
