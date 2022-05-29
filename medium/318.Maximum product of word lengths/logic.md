@@ -1,0 +1,7 @@
+- Use bit manipulation for this.
+- Convert each string to a state integer
+- Now if string 1 state integer & string 2 state integer is 0 then we know there is no match
+- So we take the product of the length of string and update the maxProduct
+- return max Product at the end
+- For finding state integer go through the loop and go through each character in the string
+- and do `state[i] |= 1 << (ord(c)-ord("a"))`
