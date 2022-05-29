@@ -1,0 +1,2 @@
+- Traverse the binary search tree inorder and add the value in output
+- Return output[k-1]
