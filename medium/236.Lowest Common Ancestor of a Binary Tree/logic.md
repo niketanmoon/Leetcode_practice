@@ -1,0 +1,7 @@
+- if root val is same as p.val or q.val then return root
+- If there is no left or right node then return None
+- Now declare left and right as None now check if root.left
+- Then we traverse the left tree and store the node value
+- Similarly go towards right subtree and get the value
+- if there is both left and right then return root
+- if only left then return left else return right
