@@ -1,0 +1,11 @@
+- **Boyer Moore Algorithm**
+- there will always be maximum of two majority elements
+- initialize two variables candidate1,candidate2 for hold the two most frequent candidates
+- initialize two pointer count1 and count2
+- for each element in the input
+- if the element is same as candidate1, increase count1 do similar for candidate2
+- if count == 0 then increment the count by 1
+- else:decrement count 1 and count2 by 1
+- Now go through the list again and see if the candidate1 == num then freq+= 1 same for freq2
+- Now if freq1 > threshold (len(nums)//3) then add it to the output same for freq2
+- return output
