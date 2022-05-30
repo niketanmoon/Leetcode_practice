@@ -1,0 +1,14 @@
+- First option is to add it in hashset and return list of hashset
+- Second logic is to take XOR of all the numbers
+- say nums = [1,2,1,3,2,5]
+- x = XOR(nums) -> 6
+- Binary form of 6 is 110
+- find the first set bit position and divide the array into 2 based on that bit position
+- why?
+- Becoz 6 is the result obtained after 3^5 -> if we can throw these numbers into different parts 
+- then our smaller arrays looks like -> [find the number that will appear exactly once and 
+- remaining elements appear twice]
+- Based on 2nd bit position if we partition the array it looks like
+- Array1 -> [1,1,5]
+- Array2 -> [2,3,2]
+- Apply XOR for each part -> TADA!!!! We got what we want
