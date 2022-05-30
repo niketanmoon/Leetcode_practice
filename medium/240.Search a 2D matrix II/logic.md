@@ -1,0 +1,6 @@
+- Select the last row first column index
+- Now while r index is greter than equal to 0 and c index < columns
+- we just search if matrix[r][c] == target then just return true
+- if target is less than element then move one row up
+- if target is greater than element then move one column rt
+- At the end return False
