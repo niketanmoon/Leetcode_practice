@@ -1,0 +1,8 @@
+- First take a list and initialise with 1
+- Now initialise ugly, i2, i3, i5 to 0
+- Now go through the loop from 2 till n
+- First find out the ugly number which is minimum of num[i2,i3, i5] * 2, 3, 5
+- Now once this is done we append it to the list
+- Now we check if the number at i2, i3, i5 is equal to ugly number 
+- if it is then we know the minimum was that ik so we increment i2 += 1, i3+=1 and i5+= 1
+- At the end return nums[n-1]
