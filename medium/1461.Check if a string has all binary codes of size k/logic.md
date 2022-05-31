@@ -1,0 +1,4 @@
+- The total number of codes will be 2**k
+- Now just go through the string as a sliding window and add the string to the hashSet
+- to make it unique
+- if len of hashSet is equal to number of codes then return True else return False
