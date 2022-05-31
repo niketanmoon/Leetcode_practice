@@ -1,0 +1,7 @@
+- Implement bucket sort 
+- First make a bucket of len + 1
+- Now go through each number in candidates and check if number >= len
+- then increment counter at last index else increment the bucket number at that index by 1
+- Now go in the reverse order in the bucket and do the running sum 
+- if running sum > index then return index
+- At the end return 0
