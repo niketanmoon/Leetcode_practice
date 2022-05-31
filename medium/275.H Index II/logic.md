@@ -1,0 +1,6 @@
+- The first approach is to apply bucket sort that we did in hindex
+- Second approach is to apply binary search since the citations is already sorted
+- Check if the element at middle  >= range of citation papers i.e len - middle
+- if it is then total is max of total and range. Also decrement the right pointer to middle - 1
+- else move the left pointer to middle + 1 i.e the right part
+- At the end return total
