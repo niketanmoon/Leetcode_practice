@@ -1,0 +1,1 @@
+- Loop through the array and add the previous sum and add it to the output
