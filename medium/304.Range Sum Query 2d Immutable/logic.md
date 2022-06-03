@@ -1,0 +1,7 @@
+- First make a new matrix with one more row and one more column
+- Keep the extra row and column at prefix as 0
+- Now calculate the running sum at each cell by add top, left and subtracting diagonal
+- Now for sum region you take the last index sum and subtract
+- from first row last column and first column last row
+- Now add the first row first column element
+- return it
