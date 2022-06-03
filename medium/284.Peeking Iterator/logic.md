@@ -1,0 +1,7 @@
+- Peek returns the next of the iterator
+- next returns the peek and then again move the peek to next
+- hasNext returns if the peek is None or not
+- In constructor take self.current as iterator.next if iterator.hasNext is true else None
+- Now for peek return the old current
+- for next method return current but before that update the new current same as constructor
+- for hasNext we will just look if current is present or not if it is then true else false
