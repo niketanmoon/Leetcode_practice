@@ -1,0 +1,6 @@
+- First go from 1 to n each one as target
+- and then go from 1 to target with each one as s
+- Now square = s*s
+- if target-square < 0 then break
+- else we do dp[target] = min(dp[target], 1+ dp[target-square])
+- return dp[n] at the end
