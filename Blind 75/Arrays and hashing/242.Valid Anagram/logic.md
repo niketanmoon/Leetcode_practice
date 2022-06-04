@@ -1,0 +1,7 @@
+- **First Approach**
+- TC: O(nlogn) SC: O(1)
+- You can sort and check if they are equal
+- **Second Approach**
+- TC: O(n) SC:O(n)
+- store each character and its count in hashmap S and hashmap T
+- then go through the hashmap S and compare key in T and compare also the count
