@@ -1,0 +1,2 @@
+- Convert each string into count list of each character
+- key it using count and append the strings accordingly
