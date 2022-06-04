@@ -1,0 +1,1 @@
+- Implement hashmap where you store the number and its idx
