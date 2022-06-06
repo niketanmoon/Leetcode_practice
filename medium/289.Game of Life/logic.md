@@ -1,0 +1,7 @@
+- For doing in place we have to take truth table
+- If original is 0 and new is 0 then state is 0
+- if original is 1 and new is 0 then state is 1
+- if original is 0 and new is 1 then state is 2
+- if original is 1 and new is 1 then state is 3
+- Now again go through the board and change 1 to 0, 2 and 3 to 1
+- You also have to count all neighbors to find which state to put in
