@@ -1,0 +1,5 @@
+- Take a list with all 1's
+- Go through the nums in reverse order 
+- Also j will look at all the right side elements so loop from i+1
+- Now check if element at i < element at j then update LIS[i]
+- Lis at a position will be the max of element or max at all the elements on the right of it in LIS list
