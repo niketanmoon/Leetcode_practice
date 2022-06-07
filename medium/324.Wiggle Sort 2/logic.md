@@ -1,0 +1,3 @@
+- First sort the array
+- put the smaller half of the numbers on the even indexes
+- the larger half on the odd indexes, both from right to left
