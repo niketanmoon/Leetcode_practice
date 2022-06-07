@@ -1,0 +1,5 @@
+- First create a graph
+- Once the graph is created, find out the degree of the nodes
+- For all the nodes that has degree 1, push it into the queue and apply BFS and graph cropping
+- When there are <=2 nodes remaining that are nodes that will generate the minimum height tree
+- As these nodes will be the root nodes
