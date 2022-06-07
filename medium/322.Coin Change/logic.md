@@ -1,0 +1,10 @@
+- This follows a dynammic programming bottom up approach
+- First we will find what number of coins are needed for 0, 1, ...n
+- To calculate we will create a dp array with lenght amount +1
+- Now initialize dp[0] = 0
+- Now go from 1 to amount +1 
+- Again loop from coins and if a-c is greater than equal to 0 
+- Now dp[a] = min(dp[a], 1 + dp[a-c])
+- For amount 7, coin 4
+- dp[7] = min(dp[7], 1+dp[7-4]= 1+ dp[3])
+- At the end return -1 if it is infinity else return dp[-1] 
