@@ -1,0 +1,8 @@
+- Approach with a segment tree algo
+- First consider all the elements inside array as nodes
+- Now take sum of two nodes and put it as its parent node
+- Same for other half as well
+- Now we will also consider the indexes for these nodes
+- Sum is the left index to right index storage
+- For update, if we want to add the element at some index then we will update the index node
+- As well as the nodes that were in the path
