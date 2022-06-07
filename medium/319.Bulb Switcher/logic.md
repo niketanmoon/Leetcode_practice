@@ -1,0 +1,4 @@
+- Toggle the bulbs according to multiples of 1, 2, 3...n
+- return the bulbs that are ON
+- This intuition is similar as finding sqrt between 1 and n
+- And then returning the integer
