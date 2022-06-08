@@ -1,0 +1,8 @@
+- First deal with edge cases when subRoot is empty then return True but if root is empty then return False
+- now check if both are same tree or not if it is then return True
+- otherwise go to the left of root and check with subRoot
+- similarly go with right and check with subRoot. If any one returns True then return True
+- Same tree function first check if both nodes are empty then return True
+- if both nodes are valid and both values are equal then we check with its left and its right 
+- return true if both are True
+- else just return False 
