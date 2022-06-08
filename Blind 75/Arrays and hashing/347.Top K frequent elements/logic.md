@@ -1,0 +1,4 @@
+- First put the count of each element in a hashmap
+- Now maintain a bucket of size len(nums) + 1
+- Now the count is index and element itself is the value inside the bucket
+- [1, 1, 1, 2, 2, 3] bucket = [[], [3], [2], [1], [],[],[]]
