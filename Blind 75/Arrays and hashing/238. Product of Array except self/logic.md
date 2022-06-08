@@ -1,0 +1,5 @@
+- First make a output list of 1s
+- Now first calculate prefix and store it in the output 
+- then update prefix to product of prefix and number
+- Later calculate postfix and store it in the output by multiplying by the stored prefix
+- Now update the postfix same as prefix
