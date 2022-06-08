@@ -1,0 +1,14 @@
+- Take every two lists and merge it according to merge sort
+- When we merge the list we will append it to the mergedList
+- at end we will update lists = mergedList
+- Now we will do this until len(lists) > 1, once lists length is 1 
+- we break and return lists[0]
+- for merging we use merge sort algo
+- Initialize dummy as a node
+- Then tail = dummy now go through each list
+- while l1 and l2 is valid we check which one is small and link tail to that list and increment l1
+- if l2 is small then we do the same for l2
+- in both cases update tail = tail.next
+- Now check if still l1 is valid or not and link nodes to tail
+- similar for l2
+- return dummy.next i.e the head
