@@ -1,0 +1,3 @@
+- We can remove a and then remove b this way 2 steps
+- If palindrome then 1 step
+- if empty then 0 steps
