@@ -1,0 +1,6 @@
+- First see if there is no root then return 0
+- Now go to the left subtree and calculate max
+- similarly go to right and calculate max
+- If they are negative update it to 0
+- Now calculate the path sum by splitting allowed and store it into max(result[0], maxpathsum)
+- return sum without splitting
