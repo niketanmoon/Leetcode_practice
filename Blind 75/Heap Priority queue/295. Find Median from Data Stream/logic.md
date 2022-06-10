@@ -1,0 +1,9 @@
+- Maintain two heaps small - maxHeap and large as MinHeap
+- Now first add -1 * num into small then check if the numbers in small > elements in large
+- if it is then pop the max number and add it to large before doing it regain the value * -1 
+- Now check for uneven size if the size of small > large + 1 that is if len is > 1 
+- then remove the element from the heap and add it to another heap
+- While finding Median
+- if len(small) > len(large) then return -1 * small
+- if len(large)  is greater then return large
+- if both have same length then return -1*small + large / 2
