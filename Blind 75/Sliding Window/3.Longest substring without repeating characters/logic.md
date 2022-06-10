@@ -1,0 +1,2 @@
+- Approach with a sliding window technique.
+- Keep removing from left untill s[r] is in the hashSet
