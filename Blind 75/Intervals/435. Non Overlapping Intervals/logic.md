@@ -1,0 +1,6 @@
+- First sort the intervals 
+- Now make the prevEnd = interval[0][1]
+- Now go through the intervals 
+- and check if it is overlapping or not if start >= prevEnd
+- this is not overlapping so we make the prevEnd to be the end 
+- if it is overlapping then we increase the result by 1 and make prevEnd as minimum of end and prevEnd
