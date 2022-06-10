@@ -1,0 +1,5 @@
+- Take first row and last row and apply dfs on first row with pacific set and last row with atlantic set
+- Similarly take first column and last column and apply dfs on first with pacific set and last with atlantic set
+- Now go from pacific ocean to height and check if the prev height is > height or not if it is then valid
+- For base case if the r,c in visit then return 
+- Now after everything is done if r,c in pac as well as atlantic then add it to the list
