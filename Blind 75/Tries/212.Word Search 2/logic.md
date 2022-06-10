@@ -1,0 +1,1 @@
+- Put all the words in a trie Node and while appplying dfs search it in the trie
