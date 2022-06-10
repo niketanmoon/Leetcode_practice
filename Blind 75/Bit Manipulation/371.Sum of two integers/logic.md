@@ -1,0 +1,5 @@
+- take xor of a and b 
+- and take the carry and shift the new integer by 1
+- Now check if new integer is not zero then add the a and xor of b
+- At end return ~(a^mask) if mask // 2 < a else a
+- mask is 0xFFFFFFFF
